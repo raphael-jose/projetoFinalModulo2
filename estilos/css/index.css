@@ -66,3 +66,6 @@ section:nth-of-type(3){
 section:nth-of-type(4){
     background-image: url("https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80");
 }
+section:nth-of-type(5){
+    background-image: url("https://media2.giphy.com/media/l0HlFZ3c4NENSLQRi/giphy.gif?cid=790b76111e074074f866d97c7690825a1ab1279f36085357&rid=giphy.gif&ct=g");
+}
