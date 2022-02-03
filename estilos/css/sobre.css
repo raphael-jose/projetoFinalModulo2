@@ -1,0 +1,67 @@
+.container_squad {
+    display: flex;
+    width: 130vh;
+    height: 55vw;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.squad_h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#grupo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+
+}
+#nome_squad{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.squad {
+    border: gold 2px solid;
+    border-radius: 100px;
+    height: 15vw;
+    width: 120vh;
+    margin-left: 3%;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nome_squad{
+    border-radius: 100px;
+    height: 15vw;
+    width: 120vh;
+    margin-left: 3%;
+    justify-content: center;
+    text-align: center;
+}
+
+#squad_1 {
+    background-image: url(../../estilos/img/naruto1.jpg);
+
+}
+
+#squad_2 {
+    background-image: url(../../estilos/img/naruto2.jpg);
+
+}
+
+#squad_3 {
+    background-image: url(../../estilos/img/naruto3.jpg);
+
+}
+
+#squad_4 {
+    background-image: url(../../estilos/img/naruto4.jpg);
+
+}
