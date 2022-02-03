@@ -69,3 +69,17 @@ section:nth-of-type(4){
 section:nth-of-type(5){
     background-image: url("https://media2.giphy.com/media/l0HlFZ3c4NENSLQRi/giphy.gif?cid=790b76111e074074f866d97c7690825a1ab1279f36085357&rid=giphy.gif&ct=g");
 }
+
+
+/*estilização do footer*/
+.rodape{
+
+}
+.menuRodape{
+    display: flex ;
+flex-direction: row ;
+flex-wrap: wrap ;
+justify-content: space-around ;
+align-items: center ;
+align-content: center ;
+}
