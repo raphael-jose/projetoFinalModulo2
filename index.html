@@ -10,164 +10,198 @@
     <link rel="stylesheet" href="./estilos/css/index.css">
     <link rel="stylesheet" href="./estilos/css/style.css">
     <link rel="stylesheet" href="./estilos/css/sobre.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!--colocar o favicon da pagina-->
+    <link rel="stylesheet" href="./estilos/css/footer.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--colocar o favicon da pagina-->
+    
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#sessao1">home</a></li>
-            <li><a href="#sessao2">produtos</a></li>
-            <li><a href="#sessao3">sobre</a></li>
-            <li><a href="#sessao4">fale conosco</a></li>
-            <li><a href="#sessao5">login-cadastre-se</a></li>
-        </ul>
-    </nav>
-</header>
+    <header> 
+        <!--menu-->
+        <nav>
+                <ul>
+                <li><a href="#sessao1">home</a></li>
+                <li><a href="#sessao2">produtos</a></li>
+                <li><a href="#sessao3">sobre</a></li>
+                <li><a href="#sessao4">fale conosco</a></li>
+                <li><a href="#sessao5">login-cadastre-se</a></li>
+                </ul>
+        </nav>
+<!--fim do menu-->
+    </header>
+<!--inicio das sesões #backgound-->
+            <section id="sessao1">
+                <h1>home</h1>
+            </section>
+            
+            <section id="sessao2">
+                <h1>produtos</h1>
+            </section>
+            
+            <section id="sessao3">
+                <h1>Sobre</h1>
+            </section>
+            
+            <section id="sessao4">
+                <h1>fale conosco</h1>
+            </section>
 
-<section id="sessao1">
-    <h1>home</h1>
-</section>
+            <section id="sessao5">
 
-<section id="sessao2">
-    <h1>produtos</h1>
-</section>
-
-<section id="sessao3">
-    <div class="container_squad">
-        <div class="squad_h1">
-            <h1>Sobre</h1>
-        </div>
-        <div class="" id="grupo">
-            <div class="squad" id="squad_1">
-                1
-            </div>
-            <div class="squad" id="squad_2">
-                2
-            </div>
-            <div class="squad" id="squad_3">
-                3
-            </div>
-            <div class="squad" id="squad_4">
-                4
-            </div>
-        </div>
-        <div class="" id="nome_squad">
-            <div class="nome_squad">
-                Gabriel <br> Dias
-            </div>
-            <div class="nome_squad">
-                Lucas Mendonça
-            </div>
-            <div class="nome_squad">
-                Raphael José ('Taylor')
-            </div>
-            <div class="nome_squad">
-                Raphael Marques
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section id="sessao4">
-    <h1>fale conosco</h1>
-</section>
-
-<section id="sessao5">
+<!--Fim das sessões-->
 
     <!--inicio do bloco de login-->
     <div class="container">
-        <div class="content first-content">
-            <div class="first-column">
-                <!--começo da div-->
-                <form class="form">
-                    <h2 class="title title-second">Criar conta</h2>
-                    <p class="description description-second">ou use seu email para Registro</p>
-                    <label class="label-input" for="">
+      <div class="content first-content">
+          <div class="first-column">
 
-                        <input type="text" placeholder="Nome de usuario" required>
-                    </label>
+<!--começo da div-->
+               <form class="form">
+                <h2 class="title title-second">Criar conta</h2>
+                <p class="description description-second">ou use seu email para Registro</p>
+                <label class="label-input" for="">
+                   
+                    <input type="text" placeholder="Nome de usuario"style="text-align: center" required />
+                </label>
+                
+                <label class="label-input" for="">
+                   
+                    <input type="email" placeholder="Email"style="text-align: center" required />
+                </label>
+                
+                <label class="label-input" for="">
+                    
+                    <input type="password" placeholder="Password"style="text-align: center" required />
+                </label>
+            </form>
+  
+<!--fimda div-->
+              <button id="signin" class="btn btn-primary">entrar</button>
+          </div>   
+          
+          
+          <div class="second-column">
+              
+<!--interior-->
+              
+              <form class="form">
+                
+                  <label class="label-input" for="">
+                     
+                      <input type="text" placeholder="Endereço" style="text-align: center" required />
+                  </label>
+<!--  <button class="btn btn-primary">validar cep</button>--> <!--botão opcional-->
+                  
+                <label class="label-input" for="">
+                      
+                      <input type="number" placeholder="numero"style="text-align: center" required />
+                  </label>
+                  
+                  <label class="label-input" for="">
+                      
+                      <input type="number" placeholder="complemento"style="text-align: center" required />
+                  </label>
+                  
+                  
+                  <button class="btn btn-second">cadastrar</button>        
+              </form>
+          </div><!-- segunda coluna-->
 
-                    <label class="label-input" for="">
-
-                        <input type="email" placeholder="Email" required>
-                    </label>
-
-                    <label class="label-input" for="">
-
-                        <input type="password" placeholder="Password" required>
-                    </label>
-                </form>
-
-                <!--fimda div-->
-                <button id="signin" class="btn btn-primary">entrar</button>
-            </div>
-
-
-            <div class="second-column">
-
-                <!--interior-->
-
-                <form class="form">
-
-                    <label class="label-input" for="">
-
-                        <input type="text" placeholder="Endereço" required>
-                    </label>
-                    <!--  <button class="btn btn-primary">validar cep</button>-->
-                    <!--botão opcional-->
-                    <label class="label-input" for="">
-
-                        <input type="number" placeholder="numero" required>
-                    </label>
-
-                    <label class="label-input" for="">
-
-                        <input type="number" placeholder="complemento" required>
-                    </label>
+      </div><!-- primeiro conteudo -->
+      <div class="content second-content">
+          <div class="first-column">
+              <h2 class="title title-primary">YO! Amigo</h2>
+              <p class="description description-primary">Insira seus dados pessoais</p>
+              <p class="description description-primary">e comece sua jornada conosco</p>
+              <button id="signup" class="btn btn-primary">cadastrar</button>
+          </div>
+          <div class="second-column">
+              <h2 class="title title-second">Entrar no desenvolvedor</h2>
+              
+              <p class="description description-second">ou use sua conta de e-mail:</p>
+              <form class="form">
+              
+                  <label class="label-input" for="">
+                     
+                      <input type="email" placeholder="Email"style="text-align: center" required />
+                  </label>
+              
+                  <label class="label-input" for="">
+                      
+                      <input type="password" placeholder="senha" style="text-align: center" required />
+                  </label>
+              
+                  <a class="password" href="#">Esqueci a Senha 😣</a>
+                  <button class="btn btn-second">Entrar</button>
+              </form>
+          </div><!-- segunda coluna -->
+      </div><!--segundo conteudo -->
+  </div>
+  </section>
 
 
-                    <button class="btn btn-second">cadastrar</button>
-                </form>
-            </div><!-- segunda coluna-->
-        </div><!-- primeiro conteudo -->
-        <div class="content second-content">
-            <div class="first-column">
-                <h2 class="title title-primary">YO! Amigo</h2>
-                <p class="description description-primary">Insira seus dados pessoais</p>
-                <p class="description description-primary">e comece sua jornada conosco</p>
-                <button id="signup" class="btn btn-primary">cadastrar</button>
-            </div>
-            <div class="second-column">
-                <h2 class="title title-second">Entrar no desenvolvedor</h2>
 
-                <p class="description description-second">ou use sua conta de e-mail:</p>
-                <form class="form">
-
-                    <label class="label-input" for="">
-
-                        <input type="email" placeholder="Email" required>
-                    </label>
-
-                    <label class="label-input" for="">
-
-                        <input type="password" placeholder="senha" required>
-                    </label>
-
-                    <a class="password" href="#">Esqueci a Senha 😣</a>
-                    <button class="btn btn-second">Entrar</button>
-                </form>
-            </div><!-- segunda coluna -->
-        </div>
-        <!--segundo conteudo -->
-    </div>
-</section>
-<footer>
-    TESTE DE CRIAÇÂO DA BRANCH RMARQUES.
-    <!--colocar o favicon da pagina-->
-</footer>
-
+<!--inicio do footer-->
+        <footer class="footer-distributed">
+  
+              <div class="footer-left">
+  
+                  <h3>MasterDevs<span>T14</span></h3>
+  
+                  <p class="footer-links">
+                      <a href=" #sessao1" class="link-1">Home</a>
+                    
+                      <a href="#sessao2">Produtos</a>
+                
+                      <a href="#sessao3">sobre</a>            
+                
+                      <a href="#sessao4">fale conosc</a>
+                    
+                      <a href="#sessao5">login</a>
+                      
+                      <a href="#">1º pro egg</a>
+                  </p>
+  
+                  <p class="footer-company-name">MasterDevs t14 © 2022</p>
+              </div>
+  
+              <div class="footer-center">
+  
+                  <div>
+                      <i class="fa fa-map-marker"></i>
+                      <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+                  </div>
+  
+                  <div>
+                      <i class="fa fa-phone"></i>
+                      <p>+55 (021)987654321</p>
+                  </div>
+  
+                  <div>
+                      <i class="fa fa-envelope"></i>
+                      <p><a href="masterdevst14@html.com">masterdevst14@html.com</a></p>
+                  </div>
+  
+              </div>
+  
+              <div class="footer-right">
+  
+                  <p class="footer-company-about">
+                      <span>Rede Sociais dos desenvolvedores</span>
+                      Esse site foi desenvolvido sem fins lugrativos pelo grupo de Estudante WebDev T14 da Resilia educação Br.
+                  </p>
+  
+                  <div class="footer-icons">
+  
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                      <a href="#"><i class="fa fa-github"></i></a>
+  
+                  </div>
+  
+              </div>
+  
+          </footer>
+<!--fim do footer-->
 <body>
     <script src="./estilos/js/loginEfeito.js"></script>
     <script src="./estilos/js/index.js"></script>
