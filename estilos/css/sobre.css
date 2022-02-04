@@ -37,6 +37,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.squad:hover{
+    border: rgb(133, 113, 0) 6px ridge;
+}
 .nome_squad{
     border-radius: 100px;
     height: 15vw;
