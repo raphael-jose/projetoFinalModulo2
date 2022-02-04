@@ -26,3 +26,8 @@
   .cartao button:hover {
     opacity: 0.7;
   }
+
+
+  .cartao:hover{
+    border: rgb(133, 113, 0) 6px ridge;
+}
