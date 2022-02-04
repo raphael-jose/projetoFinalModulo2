@@ -83,5 +83,26 @@ justify-content: space-around ;
 align-items: center ;
 align-content: center ;
 }
-
-
+.cadastro{
+    width: 30vw;
+    font-size: 15px;
+}
+.form_cadastro{
+}
+.cadastro input {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 20px;
+    padding: 6px;
+}
+#inputCEP{
+    width: 120px;
+}
+#inputNum{
+    width: 120px;
+}
+.cadastro label{
+    font-weight: bold;
+    color: wheat;
+}
