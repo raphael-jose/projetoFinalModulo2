@@ -31,3 +31,19 @@
   .cartao:hover{
     border: rgb(133, 113, 0) 6px ridge;
 }
+
+/*animação*/
+
+.cartao {
+  
+  animation: go-back 5s;
+}
+
+@keyframes go-back {
+  from {
+    transform: translatey(100px);
+  }
+  to {
+    transform: translateX(45);
+  }
+} 
