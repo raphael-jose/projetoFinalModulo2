@@ -11,7 +11,7 @@ html{
 
 nav{
     width: 100%;
-    position: fixed;
+    position: absolute;
     background: linear-gradient(rgba(0,0,0,0.7), transparent);
     text-align: center;
 }
@@ -72,9 +72,7 @@ section:nth-of-type(5){
 
 
 /*estilização do footer*/
-.rodape{
 
-}
 .menuRodape{
     display: flex ;
 flex-direction: row ;
@@ -84,4 +82,25 @@ align-items: center ;
 align-content: center ;
 }
 
-
+/*formulario de cadasttro */
+.cadastro{
+    width: 30vw;
+    font-size: 15px;
+}
+.cadastro input {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 20px;
+    padding: 6px;
+}
+#inputCEP{
+    width: 120px;
+}
+#inputNum{
+    width: 120px;
+}
+.cadastro label{
+    font-weight: bold;
+    color: wheat;
+}

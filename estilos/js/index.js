@@ -1,6 +1,10 @@
 /*card flip produtos*/
-function flip() {
-    $('.card').toggleClass('flipped');
-}
-
+$('.flipcard').click(function (e) {
+    var $card = $(this);
+    if ($card.hasClass("flipped")) {
+        $card.removeClass('flipped');
+    } else {
+        $card.addClass('flipped');
+    }
+});
 
