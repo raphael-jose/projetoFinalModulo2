@@ -72,9 +72,7 @@ section:nth-of-type(5){
 
 
 /*estilização do footer*/
-.rodape{
 
-}
 .menuRodape{
     display: flex ;
 flex-direction: row ;
@@ -88,8 +86,6 @@ align-content: center ;
 .cadastro{
     width: 30vw;
     font-size: 15px;
-}
-.form_cadastro{
 }
 .cadastro input {
     border-radius: 5px;
